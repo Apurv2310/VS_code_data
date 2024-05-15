@@ -1,0 +1,19 @@
+p{
+color: aliceblue;
+font-size: medium;
+font-weight: bold;
+font-style: italic;
+background-color: aquamarine;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+/* // this will give padding in all sides */
+padding: 20px; 
+
+/* "padding: 20px 40px" in it 20= top & bottom , 40=left & right */
+/* "padding : 20px 30px 40px 50px" in it 20=top, 30=right,  40=bottom,  50=left */
+
+/*  The above all properties same work for margin just righr margin at the place of padding*/
+margin: 20px 39px 50px 49px;
+} 

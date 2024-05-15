@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalC</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <h1 id="ch1">Apurv's Calculator</h1>
+    <marquee behavior="scroll" direction="right"><h1 id="ch2">CALCULATOR</h1></marquee>
+    <input class="inp" id ="ci1" type="number" placeholder="Enter First number">
+    <input class="inp" id="ci2" type="number" placeholder="Enter Second number">
+    <br>
+    <button type="submit" id="addBtn" class="btn">+</button>
+    <button type="submit" id="subBtn" class="btn">-</button>
+    <button type="submit" id="mulBtn" class="btn">*</button>
+    <button type="submit" id="divBtn" class="btn">/</button>
+    <div id="cdiv">
+        <span id="cspan"></span>
+    </div>
+    <script src="calc.js"></script>
+    <!-- <input type="text" placeholder="enter 2nd value" id="n2">
+    <input type="text" placeholder="enter 2nd value" id="n1">
+   <input type="button" value="sum" onclick="sum()">
+
+   <h3 id="result"></h3>
+
+   <script>
+      function sum() {
+         const a = parseInt(document.getElementById("n1").value);
+         const b = parseInt(document.getElementById("n2").value);
+         const c = a+b;
+         document.getElementById("result").innerHTML="Sum is "+c;
+      }
+      
+   </script> -->
+</body>
+</html>

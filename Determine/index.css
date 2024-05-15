@@ -1,0 +1,12 @@
+#h{
+    display: flex;
+    padding-left: 400px;
+    background-color: brown;
+}
+#inp{
+    height: 20px;
+    font-size: 20px;
+}
+#btn{
+    width:50px;
+}

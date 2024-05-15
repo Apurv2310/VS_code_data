@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div clas="row">
+            <div>
+                <h1 id="th1">Train Reservation System</h1>
+            </div>
+
+            <table class="table table-bordered border-primary">
+                <tbody>
+                  <tr>
+                    <td>Train Name</td>
+                    <td>
+                        <select id="trains" name="class">
+                        <option id="1" value="select class">select Train</option>
+                        <option id="2" value="Sleeper">Delhi Express</option>
+                        <option id="3" value="Sleeper">Jammu Express</option>
+                        <option id="4" value="Sleeper">Indore Express</option>
+                        <option id="5" value="Sleeper">Mumbai Express</option>
+                    </select>
+                    <div id="ad">
+                        <input id="train-name" type="text" placeholder="enter train name">
+                        <input id="add" type="submit" value="ADD">
+                        <p id="suc"></p>
+                    </div>
+                    <div id="del">
+                        <input id="del-name" type="text" placeholder="enter train name">
+                        <input id="delete" type="submit" value="Delete">
+                        <p id="sucd"></p>
+                    </div>
+                    
+                    </td>
+                  </tr>
+                  <tr>  
+                    <td>Train Number</td>
+                    <td><input type="text" placeholder="Enter Train Number"></td>
+                  </tr>
+                  <tr>
+                    <td>Class</td>
+                    <td>
+                        <select id="dp" name="class">
+                        <option value="select class">select class</option>
+                        <option value="Sleeper">Sleeper</option>
+                        <option value="Sleeper">3AC</option>
+                        <option value="Sleeper">2AC</option>
+                        <option value="Sleeper">1AC</option>
+                    </select>
+                    </td>
+                  </tr>
+                  <tr>  
+                    <td>Origin</td>
+                    <td><input type="text" placeholder="Enter Origin"></td>
+                  </tr>
+                  <tr>  
+                    <td>Destination</td>
+                    <td><input type="text" placeholder="Enter Destination"></td>
+                  </tr>
+                  <tr>  
+                    <td>Date</td>
+                    <td><input type="date" placeholder="Enter Date"></td>
+                  </tr>
+                  <tr>  
+                    <td>Ticket Amount</td>
+                    <td><input type="number" placeholder="Enter Amount"></td>
+                  </tr>
+                  <tr>  
+                    <td id="btn" colspan="2"><input type="submit" value="Reservation"></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

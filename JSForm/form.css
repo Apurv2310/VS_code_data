@@ -1,0 +1,50 @@
+#div1{
+    background-image: url(https://ih1.redbubble.net/image.3813020807.9171/st,small,507x507-pad,600x600,f8f8f8.jpg);
+    background-image: image-set(12px);
+    background-position: center;
+    background-size: auto 120%;
+    background-repeat: no-repeat;
+    box-shadow: 12px 10px 40px rgba(0, 0, 0); /* Adjust shadow as needed */
+    margin-left : 0px;
+    margin-right: 50px;
+    width: 700px;
+    border-radius: 12px;
+    float:inline-end;
+    /* align-items: center; */
+}
+#t1{
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff; /* Text color */
+    /* text-shadow: 0 2px 2px rgba(255, 255, 255, 0.4), 0 4px 6px rgba(255, 255, 255, 0.3), 0 8px 12px rgba(255, 255, 255, 0.2); Glossy effect */
+    background: linear-gradient(90deg, #cd8e30, #a5489c); /* Gradient background */
+     background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent; /* Hide original text */
+}
+button{
+    align-self: center;
+    width: 100px;
+    height:30px;
+    border: 100px;
+    padding: 100px auto;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #cd8e30, #a5489c);
+    /* background-clip: text;
+    -webkit-background-clip: text;  */
+    color: inear-gradient(100deg, #68c6e8, #45e445); /* Text color */
+    transition: background 0.99s;
+    font-style: italic;
+    font-size: medium;
+    border-radius: 10px;
+}
+#img1{
+    align:"left";
+    margin: 0;
+    height: 628px;
+    width: 570px;
+    margin-left: 40px;
+    border-radius: 10px;
+}

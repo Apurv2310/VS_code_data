@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>जादू</title>
+</head>
+<body>
+    <img src="https://www.scrolldroll.com/wp-content/uploads/2020/09/It’s-Magic-It’s-Magic-Koi-mil-gaya-Memes.jpg">
+    <h1>Form Data</h1>
+    <div id="formData"></div>
+
+    <script>
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Get form data from URL parameters
+        var name = getUrlParameter('name');
+        var email = getUrlParameter('email');
+        var phone = getUrlParameter('phone');
+        var dob = getUrlParameter('dob');
+
+        // Display form data
+        document.getElementById('formData').innerHTML = 
+            "<p><b>Name:</b> " + name + "</p>" +
+            "<p><b>Email:</b> " + email + "</p>" +
+            "<p><b>Phone:</b> " + phone + "</p>" +
+            "<p><b>Date of Birth:</b> " + dob + "</p>";
+    </script>
+</body>
+</html>

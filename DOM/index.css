@@ -1,0 +1,31 @@
+.row{
+    width: 50%;
+    background-color: rgb(54, 143, 143);
+    background-image: url(https://marketplace.canva.com/EAF3DZwB4GQ/1/0/566w/canva-pink-and-cream-watercolor-background-document-%28a4%29-g_dJrvT_rUs.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 6% auto;
+}
+#bdy{
+    background-color: black;
+}
+#em{
+    width:400px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#pass{
+    width:400px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#name{
+    width:400px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+}

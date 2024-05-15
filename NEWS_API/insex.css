@@ -1,0 +1,28 @@
+#bdy{
+    background-color: black;
+    color: aliceblue;
+}
+#nh{
+    background-color: gold;
+    display: flex;
+    padding-left: 40%;
+}
+#btn{
+    height: 34px;
+    width: 300px;
+    margin-left: 40%;
+    background-color:gold;
+    color: brown;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+#chi1{
+    height: 600px;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+#chimg{
+    height: 200px;
+}

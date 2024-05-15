@@ -1,0 +1,27 @@
+#logo{
+    height: 40px;
+    margin-top: 6px;
+}
+#men-drop{
+    color: #C54B6C;
+}
+#women-drop{
+    color: #F27348;
+}
+#kids-drop{
+    color: #DB93A5;
+}
+#beauty-drop{
+    color: #218B82;
+}
+#section{
+    font-family: "Platypi";
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+#nav-img{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+}
